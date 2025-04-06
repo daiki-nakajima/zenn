@@ -11,16 +11,17 @@ published_at: "2025-04-06 16:40"
 
 技術資料やシナリオなどを Markdown で執筆する中で、  
 日頃から「PDF出力まで含めて、手軽に、見栄えよく仕上げたい」と感じていました。  
-そこで、**VSCode + Markdown + PDF出力** に対応したドキュメント制作テンプレートを作成しました。
+そこで、**VSCode + Markdown + PDF出力** に対応したGithubテンプレートを作成しました。  
+技術文書などをMarkdownで書きたい方に向けて、VSCodeのみでPDF出力まで完結できる執筆環境のテンプレートを目指しています。
 
 GitHub リポジトリはこちらです。  
 [daiki-nakajima/vscode-markdown-pdf-template](https://github.com/daiki-nakajima/vscode-markdown-pdf-template)
 
 ## こんな方におすすめ
 
-- Markdown で技術文書・同人誌・シナリオなどを執筆したい方
-- VSCode 上で執筆から PDF 出力までを完結させたい方
-- テンプレートからすぐに制作を始めたい方
+- Markdown で技術文書・同人誌・シナリオなどを執筆したい
+- VSCode 上で執筆から PDF 出力までを完結させたい
+- テンプレートからすぐに制作を始めたい
 
 ## テンプレートでできること
 
@@ -56,6 +57,46 @@ vscode-markdown-pdf-template/
 │       └── section3.png     ← 文書で使用する画像
 └── README.md
 ```
+
+## Markdownサンプル
+
+```markdown
+:[表紙](cover.md)
+
+# 目次
+
+- [目次](#目次)
+- [１章](#１章)
+  - [Markdown PDF 拡張機能の設定](#markdown-pdf-拡張機能の設定)
+  - [Mermaid フローチャートとシーケンス図](#mermaid-フローチャートとシーケンス図)
+- [２章](#２章)
+  - [画像の貼り付け](#画像の貼り付け)
+
+<div class="page"/>
+
+# １章
+
+## Markdown PDF 拡張機能の設定
+
+:[セクション１](section1.md)
+
+## Mermaid フローチャートとシーケンス図
+
+:[セクション２](section2.md)  
+
+<div class="page"/>
+
+# ２章
+
+## 画像の貼り付け
+
+:[セクション３](section3.md)
+
+```
+
+## PDF完成サンプル
+
+![image](https://storage.googleapis.com/zenn-user-upload/5a5a750d032d-20250406.png)
 
 ### 参考
 
