@@ -16,8 +16,6 @@ published_at: "2025-04-06 16:40"
 GitHub リポジトリはこちらです。  
 [daiki-nakajima/vscode-markdown-pdf-template](https://github.com/daiki-nakajima/vscode-markdown-pdf-template)
 
----
-
 ## こんな方におすすめ
 
 - Markdown で技術文書・同人誌・シナリオなどを執筆したい方
@@ -58,6 +56,12 @@ vscode-markdown-pdf-template/
 │       └── section3.png     ← 文書で使用する画像
 └── README.md
 ```
+
+### 参考
+
+- [VSCODE+MarkdownでキレイなPDFとHTMLを出力して、TRPGシナリオリリース当日まで寝て過ごす。](https://tthrr.com/article/15168c8f-2401-8194-9a60-cdc3d8df5e35#15168c8f240181e6a0fee7031e9365dd)
+- [VSCode＋MarkdownでPDF資料作成する際に表紙とフッターを良い感じにした備忘録](https://qiita.com/matcha_kinako/items/5c62784db4919e048925)
+- [Visual Studio Code で Markdown に画像を貼り付けられる markdown.copyFiles.destination 設定メモ 2024 年 5 月改良版](https://www.1ft-seabass.jp/memo/2024/04/26/vscode-current-markdown-copyfiles-destination-setting-ver2/)
 
 ---
 
