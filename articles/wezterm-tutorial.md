@@ -5,7 +5,7 @@ type: "tech"
 topics:
   - "terminal"
   - "wezterm"
-published: false
+published: true
 ---
 
 Wezterm は設定ファイルによるカスタマイズが魅力のターミナルエミュレータです。  
